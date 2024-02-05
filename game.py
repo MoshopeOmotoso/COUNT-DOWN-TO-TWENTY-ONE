@@ -1,9 +1,7 @@
 from turn import play_computer_turn, play_human_turn
 
 def play_one_round(n):
-    # This function processes the human turn.  
-    # Then process the computer turn.   
-    # Prints the number of coins left.
+   
     n = play_human_turn(n)
     if n == 0:
         return 0
